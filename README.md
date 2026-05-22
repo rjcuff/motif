@@ -20,11 +20,11 @@ src/pages/Home.jsx
 ## Install
 
 ```bash
-npm install --save-dev mtf
+npm install --save-dev motif-lint
 # or
-yarn add -D mtf
+yarn add -D motif-lint
 # or
-pnpm add -D mtf
+pnpm add -D motif-lint
 ```
 
 **Requirements:** Node.js >= 18.18.0
