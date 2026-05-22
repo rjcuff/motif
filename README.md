@@ -20,11 +20,11 @@ src/pages/Home.jsx
 ## Install
 
 ```bash
-npm install --save-dev @usemotif/motif
+npm install --save-dev @chafed/motif
 # or
-yarn add -D @usemotif/motif
+yarn add -D @chafed/motif
 # or
-pnpm add -D @usemotif/motif
+pnpm add -D @chafed/motif
 ```
 
 **Requirements:** Node.js >= 18.18.0
