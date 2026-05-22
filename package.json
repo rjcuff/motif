@@ -1,0 +1,57 @@
+{
+  "name": "motif",
+  "version": "0.1.0",
+  "description": "CLI linter for UI/UX design system drift — like ESLint, but for your design tokens",
+  "author": "Ryan Cuff",
+  "license": "MIT",
+  "homepage": "https://github.com/useMotif/motif#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useMotif/motif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/useMotif/motif/issues"
+  },
+  "keywords": [
+    "linter",
+    "design-system",
+    "design-tokens",
+    "css",
+    "tailwind",
+    "react",
+    "typescript",
+    "jsx",
+    "tsx",
+    "ui",
+    "motif"
+  ],
+  "bin": {
+    "motif": "./bin/motif.js"
+  },
+  "main": "./src/engine.js",
+  "files": [
+    "bin/",
+    "src/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint:self": "node bin/motif.js lint ./src"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.0.0",
+    "@typescript-eslint/visitor-keys": "^8.0.0",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
