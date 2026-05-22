@@ -1,5 +1,5 @@
 {
-  "name": "motif",
+  "name": "@usemotif/motif",
   "version": "0.1.0",
   "description": "CLI linter for UI/UX design system drift — like ESLint, but for your design tokens",
   "author": "Ryan Cuff",
