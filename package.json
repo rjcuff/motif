@@ -1,16 +1,16 @@
 {
-  "name": "@chafed/motif",
+  "name": "mtf",
   "version": "0.1.0",
   "description": "CLI linter for UI/UX design system drift — like ESLint, but for your design tokens",
   "author": "Ryan Cuff",
   "license": "MIT",
-  "homepage": "https://github.com/useMotif/motif#readme",
+  "homepage": "https://github.com/rjcuff/motif#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/useMotif/motif.git"
+    "url": "https://github.com/rjcuff/motif.git"
   },
   "bugs": {
-    "url": "https://github.com/useMotif/motif/issues"
+    "url": "https://github.com/rjcuff/motif/issues"
   },
   "keywords": [
     "linter",
@@ -23,7 +23,8 @@
     "jsx",
     "tsx",
     "ui",
-    "motif"
+    "motif",
+    "mtf"
   ],
   "bin": {
     "motif": "./bin/motif.js"

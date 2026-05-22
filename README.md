@@ -20,11 +20,11 @@ src/pages/Home.jsx
 ## Install
 
 ```bash
-npm install --save-dev @chafed/motif
+npm install --save-dev mtf
 # or
-yarn add -D @chafed/motif
+yarn add -D mtf
 # or
-pnpm add -D @chafed/motif
+pnpm add -D mtf
 ```
 
 **Requirements:** Node.js >= 18.18.0
@@ -371,7 +371,7 @@ npx husky add .husky/pre-commit "npx motif lint --quiet"
 Pull requests welcome. For major changes, open an issue first.
 
 ```bash
-git clone https://github.com/useMotif/motif
+git clone https://github.com/rjcuff/motif
 cd motif
 npm install
 node bin/motif.js lint ./src
